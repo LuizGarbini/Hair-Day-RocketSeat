@@ -1,4 +1,7 @@
 {
+  "name": "hairday",
+  "description": "Projeto Web de agendamento para corte de cabelo feito no curso Full Stack da RocketSeat",
+  "author": "Luiz Garbini Neto",
   "scripts": {
     "server": "json-server --watch server.json --port 3333F"
   },
