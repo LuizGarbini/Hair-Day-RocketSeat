@@ -3,9 +3,14 @@
   "description": "Projeto Web de agendamento para corte de cabelo feito no curso Full Stack da RocketSeat",
   "author": "Luiz Garbini Neto",
   "scripts": {
-    "server": "json-server --watch server.json --port 3333F"
+    "server": "json-server --watch server.json --port 3333F",
+    "build": "webpack"
   },
   "dependencies": {
     "json-server": "^1.0.0-alpha.21"
+  },
+  "devDependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
   }
 }
