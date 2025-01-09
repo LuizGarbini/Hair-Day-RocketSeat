@@ -1,5 +1,5 @@
-import {} from "./schedules/load.js"
+import { schedulesDay } from "./schedules/load.js"
 
 document.addEventListener("DOMContentLoaded", function(){
-  console.log("Dom Está Pronto!")
+  schedulesDay()
 })
