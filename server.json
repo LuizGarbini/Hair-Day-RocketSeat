@@ -1,3 +1,9 @@
 {
-  "schedules": []
+  "schedules": [
+    {
+      "id": 1736908535006,
+      "name": "Luiz Garbini",
+      "when": "2025-01-14T12:00:00.000Z"
+    }
+  ]
 }
