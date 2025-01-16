@@ -17,16 +17,16 @@ export function hoursLoad({ date }) {
 
     return {
       hour,
-      avaiable: isHourPast,
+      available: isHourPast,
     };
   });
 
   // Renderiza os horários.
-  opening.forEach(({ hour, avaiable }) => {
+  opening.forEach(({ hour, available }) => {
     const li = document.createElement("li");
 
     li.classList.add("hour");
-    li.classList.add(avaiable ? "hour-avaiable" : "hour-unavaiable");
+    li.classList.add(available ? "hour-available" : "hour-unavailable");
 
     li.textContent = hour;
 
