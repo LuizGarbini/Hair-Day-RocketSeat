@@ -1,5 +1,5 @@
 export function hoursClick(){
-  const hours = document.querySelectorAll('.hour-avaiable');
+  const hours = document.querySelectorAll('.hour-available');
   
   
   hours.forEach((available) => {
